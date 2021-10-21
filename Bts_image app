@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/bts_image_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_1" />
+
+        <ImageView
+            android:id="@+id/bts_image_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_2" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"  //layout을 가로로 꽉 채워서 진행하겠다.
+        android:layout_height="120dp">    //높이는 120dp 만큼 공간을 활용해준다. 만일 공간을 다 채우고 싶다면 "match_parent"를 사용하면 된다.
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_4" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_5" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_7" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
