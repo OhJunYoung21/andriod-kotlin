@@ -1,0 +1,26 @@
+package com.junyong.example.myapplication_1  //첫줄은 패키지이름이다.
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.util.Log
+import com.junyong.example.myapplication_1.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+
+        var student = IntArray(10)
+        var string = Array(10, { item -> "" })
+        var days = arrayOf("mon", "tues", "wends", "thur", "fri", "satur", "sun")
+        student.set(8, 10)
+        student[7] = 20
+
+        Log.d("array", "${student[8]}")
+        Log.d("array", "${student[7]}")
+        Log.d("array", "오늘은 ${days[2]}day 입니다.")
+
+
+    }
+}
